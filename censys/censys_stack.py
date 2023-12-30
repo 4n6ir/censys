@@ -44,7 +44,7 @@ class CensysStack(Stack):
                 _lambda.Runtime.PYTHON_3_10,
                 _lambda.Runtime.PYTHON_3_11
             ],
-            description = 'censys-python 2.2.9 (https://github.com/censys/censys-python)',
+            description = 'censys-python 2.2.10 (https://github.com/censys/censys-python)',
             layer_version_name = 'censys',
             license = 'Apache-2.0 License',
             removal_policy = RemovalPolicy.DESTROY
