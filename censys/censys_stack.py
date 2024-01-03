@@ -42,7 +42,8 @@ class CensysStack(Stack):
                 _lambda.Runtime.PYTHON_3_8,
                 _lambda.Runtime.PYTHON_3_9,
                 _lambda.Runtime.PYTHON_3_10,
-                _lambda.Runtime.PYTHON_3_11
+                _lambda.Runtime.PYTHON_3_11,
+                _lambda.Runtime.PYTHON_3_12
             ],
             description = 'censys-python 2.2.10 (https://github.com/censys/censys-python)',
             layer_version_name = 'censys',
